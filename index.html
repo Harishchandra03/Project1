@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <center>
+        <fieldset>
+            <!-- <marquee>A Project By Harishchandra Prasad</marquee> -->
+            <h1 id="hi">Unit converter</h1>
+            <div class="parentElement1">
+                <br>
+
+                <h3 id="hii">weight converter</h3>
+
+                <label for="inputValue">Enter a Value</label>
+                <input type="number" placeholder="Enter the number" id="inputValue">
+                <select id="conversion">
+                    <option value="kgTog">Kilogram To Gram</option>
+                    <option value="gTokg">Gram To Kilogram</option>
+                </select>
+
+                <button id="converter" onclick="weightCn()">Convert</button>
+                <p id="result"></p>
+            </div>
+            <hr>
+            <br>
+            <div class="parentElement2">
+                <br>
+                <h3 id="hii"> Length Converter</h3>
+                <label for="InputValue">Enter a Value</label>
+                <input type="number" placeholder="Enter the number" id="InputValue">
+
+                <select id="conversiontype">
+                    <option value="CmToM">Centi Meter To Meter</option>
+                    <option value="MToCm">Meter To Centi Meter</option>
+                </select>
+
+                <button id="Converter">Convert</button>
+                <p id="Result"></p>
+            </div>
+            <hr>
+            <br>
+            <div class="parentElement3">
+                <br>
+                <h3 id="hii">Time Converter</h3>
+                <lable for="Inputvalue">Enter a Value</lable>
+                <input type="number" id="Inputvalue" placeholder="Enter the number">
+
+                <select id="Conversiontype">
+                    <option value="StoM">Seconds To Minutes</option>
+                    <option value="MtoS">Minutes To Seconds</option>
+                </select>
+
+                <button id="Tconverter">Convert</button>
+                <p id="ResulT"></p>
+            </div>
+        </fieldset>
+    </center>
+    <script src="./index.js">
+
+
+    </script>
+</body>
+
+</html>

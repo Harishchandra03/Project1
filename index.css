@@ -1,0 +1,68 @@
+body {
+    align-content: center;
+    text-align: center;
+    background-color: pink;
+}
+
+fieldset {
+    background-color: blanchedalmond;
+    width: 60%;
+}
+
+.parentElement1 {
+    background-color: rgb(130, 160, 86);
+    height: 180px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 5px 5px rgb(19, 3, 12);
+}
+
+.parentElement2 {
+    background-color: rgb(130, 160, 86);
+    height: 180px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 5px 5px rgb(19, 3, 12);
+}
+
+.parentElement3 {
+    background-color: rgb(130, 160, 86);
+    height: 180px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 5px 5px rgb(19, 3, 12);
+}
+
+#hi {
+    animation-name: hii;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hii {
+    from { color:white;}
+      to { color:red;}
+}
+
+#hii {
+    color: rgb(241, 109, 184);
+    background-color: greenyellow;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.parentElement1:hover {
+    background-color: rgb(228, 8, 30);
+    transform: scale(1.1);
+    border-color: black;
+}
+
+.parentElement2:hover {
+    background-color: rgb(228, 8, 30);
+    transform: scale(1.1);
+}
+
+.parentElement3:hover {
+    background-color: rgb(228, 8, 30);
+    transform: scale(1.1);
+}
